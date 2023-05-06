@@ -1,0 +1,61 @@
+.App {
+background-color: pink;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  background-color: #f9f9f9;
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.5em;
+}
+
+li:hover {
+  background-color: #e9e9e9;
+  cursor: pointer;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 2em;
+}
